@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "dec4feea7fab9ab7",
+    "type": "split",
+    "children": [
+      {
+        "id": "91271110a5d9ec36",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MIT RPG/globalrules.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c64c221387e75ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "5dd7ab6168351033",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "907b08de792aaf5f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "358c106a15958c10",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "404cc868e508959f",
+    "type": "split",
+    "children": [
+      {
+        "id": "03845730fef567eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a42d728cc59e0845",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MIT RPG/globalrules.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "91271110a5d9ec36",
+  "lastOpenFiles": [
+    "MIT RPG/globalrules.md",
+    "MIT RPG/rules/globalrules.md.md",
+    "ArmyRP/rules/chatrules.md",
+    "ArmyRP/Правила/globalrules.md",
+    "ArmyRP/Фракции/usa.md",
+    "ArmyRP/Фракции/russian.md",
+    "ArmyRP/Фракции/citizen.md",
+    "ArmyRP/Правила/rulesadmin.md.md",
+    "ArmyRP/Фракции/citizen.md.md",
+    "ArmyRP/Фракции/usa.md.md"
+  ]
+}

@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Wiki logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,60 +67,49 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '📖 Вики',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            position: 'left',
+            label: '⚖ Правила',
+            items: [
+            {
+              label: "⚔ ArmyRP",
+              to: "docs/category/правила"
+            },
+            {
+              label: "🧨 MIT RPG",
+              to: "docs/MIT%20RPG/chatrulesmits"
+            }
+            ]
           },
+          //{to: '/blog', label: 'Новости', position: 'left'},
+          {
+						href: "https://armyrp.freeflarum.com",
+						position: "right",
+						label: "💬 Форум",
+					},
+          {
+						position: "right",
+						label: "👥 Discord",
+            items: [
+              {
+                label: "⚔ ArmyRP",
+                href: "https://discord.gg/CkTcUvQhaF"
+              },
+              {
+                label: "🧨 MIT RPG",
+                href: "https://discord.gg/aRBFeQbbyD"
+              }
+            ]
+					},
+          {
+						href: "https://github.com/MIT-gmod",
+						position: "right",
+						className: "header-github-link",
+						"aria-label": "GitHub repository",
+					},
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
